@@ -19,12 +19,12 @@ const Home = (props) => {
           >
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
-                <span className="home-nav12 bodySmall">Home</span>
                 <img
+                  src="/threat%20.%20(1).svg"
                   alt="image"
-                  src="/threat%20.%20(1)-200h.png"
                   className="home-image"
                 />
+                <span className="home-nav12 bodySmall">Home</span>
                 <span className="home-nav2 bodySmall">Services</span>
                 <span className="home-nav3 bodySmall">Solutions</span>
                 <span className="home-nav4 bodySmall">Clients</span>
@@ -621,16 +621,12 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
+          .home-image {
+            width: 200px;
+            object-fit: cover;
+          }
           .home-nav12 {
             transition: 0.3s;
-          }
-          .home-image {
-            top: -47px;
-            left: -57px;
-            width: 323px;
-            height: 152px;
-            position: absolute;
-            object-fit: cover;
           }
           .home-nav2 {
             transition: 0.3s;
