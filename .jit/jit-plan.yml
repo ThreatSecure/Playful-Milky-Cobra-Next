@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 4d3127a5-7a8b-41c0-8bc6-1b6db1b5ec5d
 author: Jit
 version: 0.1
 owners:
@@ -9,6 +10,4 @@ references:
 tags: []
 items:
   - name: Scan your code for vulnerabilities (SAST)
-    uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
-
+    uses: jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
